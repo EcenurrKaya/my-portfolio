@@ -5,7 +5,7 @@ import Link from 'next/link'
 const HeroSection = () => {
   return (
     <section className='flex flex-col-reverse lg:flex-row'>
-        <div className='w-full lg:w-2/3 sm:w-full mt-10 md:h-screen'>
+        <div className='w-full lg:w-2/3 sm:w-full mt-10 App'>
             <h1 className='md:text-5xl text-3xl mb-3 font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-700'>Hi, I&apos;m Ece</h1>
             <div className='flex mb-3 font-extrabold md:text-5xl text-2xl'>
                 <span className='mr-3'>a</span>
@@ -19,7 +19,7 @@ const HeroSection = () => {
         <div className='w-full lg:w-1/3 flex justify-center items-center md:items-stretch'>
             <div className='bg-[#3cb371] rounded-full blur' style={{width:"400px", height: "400px"}}>
             </div>
-            <div className='absolute md:top-1/2 sm:top-1/3  transform md:-translate-y-1/2 -translate-y-1/4'>
+            <div className='absolute md:top-1/2 top-1/3 transform md:-translate-y-1/2 -translate-y-1/4'>
                 <Image src="/img/woman.png" alt='sof/tware' width={450} height={450}/>
             </div>
         </div>
