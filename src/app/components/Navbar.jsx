@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className='hidden md:block'>
            <ul className='flex'>
             <li className='lihover'>
-                <Link href="/">Home</Link>
+                <Link href="/">home</Link>
             </li>
 
             <li className='lihover'>
