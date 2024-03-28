@@ -16,7 +16,7 @@ const HeroSection = () => {
                 <Link href="mailto:kaya.ecenur02@gmail.com"><button className='p-2 dark:border-black md:mt-0 mt-5'>Contact with me</button></Link>
             </div>
         </div>
-        <div className='w-full lg:w-1/3 sm:w-full'>
+        <div className='w-full lg:w-1/3 sm:w-full flex justify-center items-center md:items-stretch'>
             <div className='bg-[#3cb371] rounded-full blur' style={{width:"400px", height: "400px"}}>
             </div>
             <div className='absolute md:top-1/2 top-1/3  transform md:-translate-y-1/2 -translate-y-1/4'>
