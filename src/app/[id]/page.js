@@ -8,8 +8,8 @@ export default async function Projects({params}) {
         return <div>Project not found!</div>;
     }
   return (
-        <div className='md:flex items-center md:p-10'>
-            <div className='sm:w-1/3'>
+        <div className='lg:flex items-center md:p-10'>
+            <div className='lg:w-1/3'>
                 <Image src={`${projeDetay.img}`} alt='software' width={600} height={600} className='rounded-xl'/>
             </div>
             <div className='md:w-2/3 md:p-20 p-5'>
