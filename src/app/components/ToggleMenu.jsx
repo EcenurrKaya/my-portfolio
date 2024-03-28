@@ -39,7 +39,7 @@ const ToggleMenu = () => {
                 </button>
 
                 {isClick && (
-                <div className='md:hidden'>
+                <div className='md:hidden absolute'>
                     <div className='px-2 pt-2 pb-3'>
                         <ul className=''>
                             <li className='block lihover'>
