@@ -15,7 +15,7 @@ export default async function ProjectsCard () {
                 data.items.map((datas) => {
                     return (
                         <Link href={`${datas.id}`} key={datas.id}>
-                            <div className='justify-center items-center text-center md:w-96 m-3'>
+                            <div className='justify-center items-center text-center lg:w-96 m-3'>
                                 <div className='flex justify-center h-48'>
                                     <Image src={`${datas.img}`} alt='software' width={290} height={290} className='rounded-lg'/>
                                 </div>
