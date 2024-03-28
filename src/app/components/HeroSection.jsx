@@ -19,7 +19,7 @@ const HeroSection = () => {
         <div className='w-full lg:w-1/3 flex justify-center items-center md:items-stretch'>
             <div className='bg-[#3cb371] rounded-full blur' style={{width:"400px", height: "400px"}}>
             </div>
-            <div className='absolute lg:top-1/2 top-1/3 transform lg:-translate-y-1/2 -translate-y-1/4'>
+            <div className='absolute lg:top-1/2 sm:top-1/3 transform lg:-translate-y-1/2 sm:-translate-y-1/4'>
                 <Image src="/img/woman.png" alt='sof/tware' width={450} height={450}/>
             </div>
         </div>
