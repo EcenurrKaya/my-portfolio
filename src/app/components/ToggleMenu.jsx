@@ -43,7 +43,7 @@ const ToggleMenu = () => {
                     <div className='px-2 pt-2 pb-3'>
                         <ul className=''>
                             <li className='block lihover'>
-                                <Link href="#">Home</Link>
+                                <Link href="/">Home</Link>
                             </li>
 
                             <li className='block lihover'>
