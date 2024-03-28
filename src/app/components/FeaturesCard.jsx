@@ -10,7 +10,7 @@ const TAB_DATA=[
         id:"features",
         content:(
             <div>
-                <ul className='md:flex border-spacing-4 border-white dark:text-white'>
+                <ul className='md:flex border-spacing-4 border-white dark:text-white mr-2'>
                     <li className='flex-1 bg-[#282828] md:px-8 md:py-4 px-4 py-2 rounded-xl mb-5'>
                         <p className='md:text-2xl text-lg font-bold md:mb-5'>Web Developer</p>
                         <p className='md:text-lg text-sm'>I am developing web projects with ReactJS and NextJS.</p>

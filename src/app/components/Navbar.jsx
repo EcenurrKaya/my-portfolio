@@ -9,15 +9,15 @@ const Navbar = () => {
     <div className='lg:mx-20 my-10 justify-between flex'>
         <div className='hidden md:block'>
            <ul className='flex'>
-            <li className='lihover'>
+            <li className='lihover mr-2'>
                 <Link href="/">Home</Link>
             </li>
 
-            <li className='lihover'>
+            <li className='lihover mr-2'>
                 <Link href="/#qualification">Qualification</Link>
             </li>
 
-            <li className='lihover'>
+            <li className='lihover mr-2'>
                 <Link href="/#features">Features</Link>
             </li>
             <li className='lihover'>
@@ -30,13 +30,13 @@ const Navbar = () => {
         </div>
         <div>
             <ul className='flex items-center'>
-                <li className='lihover'>
+                <li className='lihover mr-2'>
                     <Link href="https://github.com/EcenurrKaya" target='_blank'><AiFillGithub/></Link>
                 </li>
-                <li className='lihover'>
+                <li className='lihover mr-2'>
                     <Link href="https://tr.linkedin.com/in/ecenurr-kaya" target='_blank'><AiFillLinkedin/></Link>
                 </li>
-                <li className='lihover'>
+                <li className='lihover mr-2'>
                     <Link href="mailto:kaya.ecenur02@gmail.com"><AiFillMail/></Link>
                 </li>
                 <li>

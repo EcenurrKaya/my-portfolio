@@ -15,10 +15,10 @@ const Footer = () => {
                 </div> 
                 <div className='mt-5'>
                     <ul className='flex'>
-                        <li className='lihover'>
+                        <li className='lihover mr-2'>
                             <Link href="https://github.com/EcenurrKaya" target='_blank'><AiFillGithub/></Link>
                         </li>
-                        <li className='lihover'>
+                        <li className='lihover mr-2'>
                             <Link href="https://tr.linkedin.com/in/ecenurr-kaya" target='_blank'><AiFillLinkedin/></Link>
                         </li>
                         <li className='lihover'>
