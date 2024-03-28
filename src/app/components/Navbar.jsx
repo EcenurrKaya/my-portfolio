@@ -6,7 +6,7 @@ import ThemeToggle from './ThemeToggle'
 const Navbar = () => {
 
   return (
-    <div className='lg:mx-20 p-8 justify-between flex'>
+    <div className='lg:mx-20 md:p-8 p-4 justify-between flex'>
         <div className='hidden md:block'>
            <ul className='flex'>
             <li className='lihover mr-5'>
