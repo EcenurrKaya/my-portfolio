@@ -5,7 +5,7 @@ export const Qualification = () => {
   return (
     <div className='App' id="qualification">
       <div className='text-center mb-10'>
-       <div className='md:text-5xl text-3xl font-extrabold md:mb-3'>Qualification</div>
+       <div className='text-5xl font-extrabold md:mb-3'>Qualification</div>
        <span className='md:text-lg text-sm'>Education & Experience</span>
       </div>
       <div className='md:flex justify-between'>
