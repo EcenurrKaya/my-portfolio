@@ -16,13 +16,13 @@ const Footer = () => {
                 <div className='mt-5'>
                     <ul className='flex'>
                         <li className='lihover mr-2'>
-                            <Link href="https://github.com/EcenurrKaya" target='_blank'><AiFillGithub/></Link>
+                            <Link href="https://github.com/EcenurrKaya" target='_blank'><AiFillGithub style={{width:"20px", height:"20px"}}/></Link>
                         </li>
                         <li className='lihover mr-2'>
-                            <Link href="https://tr.linkedin.com/in/ecenurr-kaya" target='_blank'><AiFillLinkedin/></Link>
+                            <Link href="https://tr.linkedin.com/in/ecenurr-kaya" target='_blank'><AiFillLinkedin style={{width:"20px", height:"20px"}}/></Link>
                         </li>
                         <li className='lihover'>
-                            <Link href="mailto:kaya.ecenur02@gmail.com"><AiFillMail/></Link>
+                            <Link href="mailto:kaya.ecenur02@gmail.com"><AiFillMail style={{width:"20px", height:"20px"}}/></Link>
                         </li>
                     </ul>
                 </div>
